@@ -103,3 +103,6 @@ __pycache__/
 **/*.crvsdump
 **/ssm.db
 **/project.wpc
+
+#drawio
+*.drawio
