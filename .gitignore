@@ -1,0 +1,105 @@
+# Vivado project files (use **/ to match in subdirectories)
+**/*.xpr
+**/*.runs/
+**/*.cache/
+**/*.hw/
+**/*.ip_user_files/
+**/*.sim/
+**/*.srcs/*/bd/
+**/*.gen/
+
+# Vivado logs and journals
+**/vivado*.log
+**/vivado*.jou
+**/*.jou
+
+# Simulation outputs
+**/*.wdb
+**/*.wcfg
+**/*.vcd
+**/*.lxt
+**/*.lxt2
+**/*.fst
+**/*.saif
+
+# Synthesis and implementation outputs
+**/*.dcp
+**/*.bit
+**/*.ltx
+**/*.xsa
+**/*.hwh
+
+# IP generated files
+**/*.xci
+**/*.coe
+**/managed_ip_project/
+
+# HLS files
+**/*.aps
+**/*.cpp.orig
+
+# SDK/Vitis files
+**/.Xil/
+**/.metadata/
+**/RemoteSystemsTempFiles/
+
+# Backup files
+*~
+*.bak
+*.orig
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Compiled simulation files
+**/work/
+**/xsim.dir/
+**/*.pb
+**/*.wdf
+
+# Temporary files
+*.tmp
+*.temp
+__pycache__/
+*.pyc
+
+# Simulation scripts and logs (inside .sim directories)
+**/compile.log
+**/compile.sh
+**/elaborate.log
+**/elaborate.sh
+**/simulate.log
+**/simulate.sh
+**/*.tcl
+**/glbl.v
+**/*.prj
+**/xsim.ini
+**/xvlog.log
+**/*.sdb
+**/*.psdb
+**/*.rlx
+**/*.rtti
+**/*.svtype
+**/*.type
+**/*.xdbg
+**/*.dbg
+**/*.mem
+**/*.reloc
+**/xsimk
+**/xsimkernel.log
+**/xsimcrash.log
+**/xsimSettings.ini
+**/xsim.version
+**/Compile_Options.txt
+**/TempBreakPointFile.txt
+**/*.lnx64.o
+**/*.crvsdump
+**/ssm.db
+**/project.wpc
